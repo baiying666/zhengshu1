@@ -53,14 +53,16 @@
       margin: .1rem 0 .2rem 0; }
     .main ul li.company {
       font-family: "STZHONGS";
-      font-size: .28rem; }
+      font-size: .28rem;
+      font-weight: bold; }
     .main ul li:nth-child(5) {
       font-family: "STZHONGS";
       font-size: .18rem;
       margin: .2rem 0; }
     .main ul li.grade {
       font-family: "ELEPHNT";
-      font-size: .58rem; }
+      font-size: .58rem;
+      font-weight: bold; }
     .main ul li:nth-child(7) {
       font-family: "STZHONGS";
       font-size: .15rem;

@@ -69,7 +69,8 @@
     .main ul li:nth-child(n+7) {
       text-align: left;
       text-indent: .34rem;
-      line-height: .18rem; }
+      line-height: .18rem;
+      font-size: .12rem; }
     .main ul li:nth-child(11), .main ul li:nth-child(12) {
       float: left;
       margin: .2rem .4rem 0 0; }

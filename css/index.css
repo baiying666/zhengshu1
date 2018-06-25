@@ -65,7 +65,7 @@
       font-family: "STZHONGS";
       font-size: .15rem;
       text-indent: .34rem;
-      margin: .3rem 0; }
+      margin: .2rem 0; }
     .main ul li:nth-child(n+7) {
       text-align: left;
       text-indent: .34rem;
@@ -73,6 +73,6 @@
       font-size: .12rem; }
     .main ul li:nth-child(11), .main ul li:nth-child(12) {
       float: left;
-      margin: .2rem .4rem 0 0; }
+      margin: .1rem .4rem 0 0; }
 
 /*# sourceMappingURL=index.css.map */

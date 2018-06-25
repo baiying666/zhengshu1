@@ -1,0 +1,100 @@
+@font-face{
+  font-family: 'HYA0GJM';
+  src: url('../font/HYA0GJM.eto');
+  src:url('../font/HYA0GJM.woff') format('woff'),
+  url('../font/HYA0GJM.ttf') format('truetype'),
+  url('../font/HYA0GJM.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'simhei';
+  src: url('../font/simhei.eto');
+  src:url('../font/simhei.woff') format('woff'),
+  url('../font/simhei.ttf') format('truetype'),
+  url('../font/simhei.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'STZHONGS';
+  src: url('../font/STZHONGS.eto');
+  src:url('../font/STZHONGS.woff') format('woff'),
+  url('../font/STZHONGS.ttf') format('truetype'),
+  url('../font/STZHONGS.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'ELEPHNT';
+  src: url('../font/ELEPHNT.eto');
+  src:url('../font/ELEPHNT.woff') format('woff'),
+  url('../font/ELEPHNT.ttf') format('truetype'),
+  url('../font/ELEPHNT.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.main{
+  margin:0 auto;
+  width:7.1rem;
+  height: 10.04rem;
+  background: url('../img/bg.png') no-repeat;
+  background-size:7.1rem 10.04rem;
+  ul{
+    position: absolute;
+    width:5rem;
+    top:3.2rem;
+    left:0;
+    right: 0;
+    margin:0 auto;
+    li{
+      text-align: center;
+      color:#2b2c2c;
+    }
+    .title{
+      padding-bottom:.1rem;
+      border-bottom:.03rem solid #444445;
+      text-align: center;
+      font-family: 'HYA0GJM';
+      font-size: .44rem;
+      margin-bottom:.1rem;
+    }
+    li:nth-child(2){
+      text-align: center;
+      font-family: 'simhei';
+      font-size:.15rem;
+    }
+    li:nth-child(3){
+      margin:.1rem 0 .2rem 0;
+    }
+    li.company{
+      font-family:'STZHONGS' ;
+      font-size:.28rem;
+    }
+    li:nth-child(5){
+      font-family:'STZHONGS' ;
+      font-size: .18rem;
+      margin:.2rem 0;
+    }
+    li.grade{
+      font-family:'ELEPHNT' ;
+      font-size: .58rem;
+    }
+    li:nth-child(7){
+      font-family:'STZHONGS' ;
+      font-size: .15rem;
+      text-indent: .34rem;
+      margin:.3rem 0;
+    }
+    li:nth-child(n+7){
+      text-align: left;
+      text-indent:.34rem;
+      line-height: .18rem;
+    }
+    li:nth-child(11),li:nth-child(12){
+      float:left;
+      margin:.2rem .4rem 0 0;
+    }
+  }
+
+}

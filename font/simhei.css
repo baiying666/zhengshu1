@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "SimHei";
+    src: url("simhei.eot"); /* IE9 */
+    src: url("simhei.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("simhei.woff") format("woff"), /* chrome, firefox */
+    url("simhei.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("simhei.svg#SimHei") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
